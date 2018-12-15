@@ -1,12 +1,39 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/square/square",
+    "pages/profile/profile"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "豆趣",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/ic_home_normal.png",
+        "selectedIconPath": "/images/ic_home_pressed.png",
+        "selectedColor": "#2e5e86",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/square/square",
+        "iconPath": "/images/iconfinder_planet.png",
+        "selectedIconPath": "/images/iconfinder_planet.png",
+        "selectedColor": "#2e5e86",
+        "text": "广场"
+      },
+      {
+        "pagePath": 
+        "pages/profile/profile",
+        "iconPath": "/images/ic_join_normal.png",
+        "selectedIconPath": "/images/ic_join_pressed.png",
+        "selectedColor": "#2e5e86",
+        "text": "个人中心"
+      }
+    ]
   }
 }
