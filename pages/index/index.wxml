@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<!-- view list -->
+<view class='view-list'>
+  <view class='view-item' wx:for="{{viewList}}" bindtap='showDetails'>
+    <image class='item-logo' src='{{item.logo}}'></image>
+    <view class='item-body'>
+      <view class='item-title'>{{item.title}}</view>
+      <text class='item-desc'>{{item.desc}}</text>
+      <view class='item-footer'>
+        <image class='item-consult' src='/images/btn_ask.png'></image>
+        <image class='item-details' src='/images/btn_detail.png'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+
