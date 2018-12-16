@@ -22,7 +22,7 @@
       {
         "pagePath": "pages/square/square",
         "iconPath": "/images/iconfinder_planet.png",
-        "selectedIconPath": "/images/iconfinder_planet.png",
+        "selectedIconPath": "/images/iconfinder_press.png",
         "selectedColor": "#2e5e86",
         "text": "广场"
       },
